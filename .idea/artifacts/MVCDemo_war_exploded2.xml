@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MVCDemo:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/MVCDemo_war_exploded2</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MVCDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="module" name="JUnit4" module-name="MVCDemo" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="MVCDemo/web/Web2" />
+      <element id="javaee-facet-resources" facet="MVCDemo/web/Web" />
+    </root>
+  </artifact>
+</component>
